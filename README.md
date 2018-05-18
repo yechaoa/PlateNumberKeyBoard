@@ -486,3 +486,35 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+#### 4.相关属性
+
+android:keyBackground="@drawable/selector_key" 
+* 按键的背景颜色
+
+android:shadowColor="#FFFFFF"
+android:shadowRadius="0.0" 
+* 不加这两个属性  文字会出现模糊
+
+android:keyTextColor="#000"
+* 字体颜色
+
+android:keyTextSize="18sp"
+* 字体大小
+
+android:keyIcon="@drawable/ic_delete"
+* 按键上的图标
+
+android:codes="20140"
+* 输出的内容 对照ASCII表
+
+android:keyLabel="京"
+* 按键上显示的内容
+
+android:horizontalGap="0px"
+* 水平方向的间隙
+
+android:verticalGap="0px"
+* 垂直反向的间隙
+
+android:keyEdgeFlags="right"
+* 按键的对齐方式
