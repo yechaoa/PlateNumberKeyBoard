@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard
+    android:keyWidth="10%p" android:keyHeight="8%p"
+    android:horizontalGap="0.0px" android:verticalGap="0.0px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Row android:verticalGap="1%p">
+        <Key android:codes="20140" android:keyLabel="京"
+             android:horizontalGap="1%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="left"  />
+        <Key android:codes="27941" android:keyLabel="津"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="20864" android:keyLabel="冀"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="40065" android:keyLabel="鲁"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="26187" android:keyLabel="晋"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="33945" android:keyLabel="蒙"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="36797" android:keyLabel="辽"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="21513" android:keyLabel="吉"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="40657" android:keyLabel="黑"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="27818" android:keyLabel="沪"
+             android:horizontalGap="2%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:verticalGap="1%p">
+        <Key android:codes="33487" android:keyLabel="苏"
+             android:horizontalGap="1%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="left" />
+        <Key android:codes="27993" android:keyLabel="浙"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="30358" android:keyLabel="皖"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="38397" android:keyLabel="闽"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="36195" android:keyLabel="赣"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="35947" android:keyLabel="豫"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="37122" android:keyLabel="鄂"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="28248" android:keyLabel="湘"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="31908" android:keyLabel="粤"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="26690" android:keyLabel="桂"
+             android:horizontalGap="2%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row android:verticalGap="1%p">
+        <Key android:codes="28189" android:keyLabel="渝"
+             android:horizontalGap="11%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="left"/>
+        <Key android:codes="24029" android:keyLabel="川"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="36149" android:keyLabel="贵"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="20113"  android:keyLabel="云"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="34255" android:keyLabel="藏"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="38485"  android:keyLabel="陕"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="29976" android:keyLabel="甘"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="38738"  android:keyLabel="青"
+             android:horizontalGap="2%p" android:keyWidth="8%p"
+             android:keyEdgeFlags="right" />
+    </Row>
+
+    <Row >
+        <Key android:codes="-1"
+             android:keyEdgeFlags="left" android:keyLabel="ABC"
+             android:horizontalGap="4%p" android:keyWidth="15%p"
+             android:isModifier="true" android:isSticky="true"  />
+        <Key android:codes="29756" android:keyLabel="琼"
+             android:horizontalGap="2%p" android:keyWidth="8%p"/>
+        <Key android:codes="26032" android:keyLabel="新"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="23425" android:keyLabel="宁"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="28207" android:keyLabel="港"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="28595" android:keyLabel="澳"
+             android:horizontalGap="2%p" android:keyWidth="8%p" />
+        <Key android:codes="21488" android:keyLabel="台"
+             android:horizontalGap="2%p" android:keyWidth="8%p"/>
+        <Key  android:codes="-3"
+              android:keyEdgeFlags="right" android:keyLabel="删除"
+              android:horizontalGap="2%p" android:keyWidth="15%p"
+              android:isRepeatable="false" />
+    </Row>
+
+</Keyboard>
